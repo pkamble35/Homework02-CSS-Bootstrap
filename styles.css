@@ -1,0 +1,10 @@
+/* Current/active navbar link */
+.nameBox {
+    background-color: #4ba2ad;
+    margin-left: 13%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+.nameColor{
+  color: white;
+}
