@@ -1,10 +1,38 @@
 /* Current/active navbar link */
 .nameBox {
-    background-color: #4ba2ad;
-    margin-left: 13%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-  }
-.nameColor{
+  background-color: #4ba2ad;
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 380px;  
+}
+.content-header{
+color: #4ba2ad;
+}  
+.nameColor{
+color: white;
+}
+.divider{
+border:  1px solid rgb(194, 192, 192);
+background-color:  rgb(194, 192, 192);
+}
+
+.main-container{
+  border:  1px solid rgb(194, 192, 192);
+  margin-top: 2%;
+}
+
+.portfolio-content{
+  
+  margin-top: 2%;
+}
+footer {
+  background: rgb(13, 54, 47);
+  height: 70px;
+}
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
 }
