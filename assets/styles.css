@@ -25,14 +25,23 @@ background-color:  rgb(194, 192, 192);
   
   margin-top: 2%;
 }
-footer {
-  background: rgb(13, 54, 47);
-  height: 70px;
+.portfolio-image-size{
+   width: 300px;
+   height: 300px;
+   margin: 1%;
 }
+
 hr {
   border: none;
   height: 1px;
-  /* Set the hr color */
-  color: #333; /* old IE */
-  background-color: #333; /* Modern Browsers */
+  color: #333; 
+  background-color: #333; 
+}
+
+footer{
+  background-color: rgb(22, 22, 22);
+  height:70px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
