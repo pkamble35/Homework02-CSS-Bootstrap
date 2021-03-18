@@ -2,9 +2,10 @@
 This application is my personal portfolio. It has description about me 
 and work I have done so far in  bootcamp.
 
-# Live Application:- https://pkamble35.github.io/Responsive-portfolio/
+## Live Application link:- 
+https://pkamble35.github.io/Responsive-portfolio/
 
-# Application Screenshot:
+## Application Screenshot:
 
 ![Alt text](./assets/aboutme.jpg)
 
