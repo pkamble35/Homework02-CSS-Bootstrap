@@ -19,7 +19,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
     <div class="container">
       <span class="navbar-brand" href="#">
-        <h4><a class="button" href="https://pkamble35.github.io/Responsive-portfolio">Priyanka Damodar</a></h4>
+        <h4><a class="navbar-brand" href="https://pkamble35.github.io/Responsive-portfolio">Priyanka Damodar</a></h4>
       </span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <h4> <a class="nav-link" href="#">About
+            <a class="nav-link" href="#">About
               <span class="sr-only">(current)</span>
-            </a></h4>
+            </a>
           </li>
           <li class="nav-item">
-            <h4> <a class="nav-link" href="portfolio.html">Portfolio</a></h4>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
 
           <li class="nav-item">
-            <h4><a class="nav-link" href="contact.html">Contact</a></h4>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,19 +49,25 @@
       <img src="./assets/DSC00681.jpg" alt="Priyanka Kamble"
         class="lazyload border bg-white p1 border-light-gray circle square-100">
       <h1>Priyanka Damodar</h1>
-      <p>Aspiring Programmer</p>
+      <p>Aspiring Programmer <br>
+        <a href="./assets/resume.pdf"  download="filename">
+          <i class="fa fa-download" aria-hidden="true"></i>
+          <span class="h5 header-font">Resume</span>
+        </a>
+      </p>
     </div>
   </header>
-  <main class="container">
-    <div class="row justify-content-center">
-      <div class="col-4">
+  <main class="container  main-container">
+    <div class="row">
+      <div class="col-md-4 ml-md-auto">
         <h3 class="mb2">About me</h3>
         <p>
           Hello I am Priyanka Damodar. I am aspiring programmer focused on developing Responsive Front End.<br>
-          Technologies: HTML, CSS, Javascript, Jquery, Bootstrap.
+          <strong>Technologies: </strong>HTML, CSS, Javascript, Jquery, Bootstrap.<br>
+          
         </p>
       </div>
-      <div class="col-4">
+      <div class="col-md-3 ml-md-auto" >
         <h3 class="mb2">Contact</h3>
         <div class="container">
           <div class="row">
@@ -89,7 +95,7 @@
   </main>
 
 
-  <footer style="text-align: center;">
+  <footer class="mt-auto" style="text-align: center;">
     <div>
       <span class="text-muted">©copyright</span>
     </div>
