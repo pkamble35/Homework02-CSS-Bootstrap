@@ -2,9 +2,9 @@
 This application is my personal portfolio. It has description about me 
 and work I have done so far in  bootcamp.
 
-![Alt text](./assets/aboutme.JPG)
+![Alt text](./assets/aboutme.jpg)
 
-![Alt text](./assets/portfolio.JPG)
+![Alt text](./assets/portfolio.jpg)
 
 ## License
 
